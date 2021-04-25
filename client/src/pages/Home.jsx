@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 import Image from "../components/Image";
 import "../styles/global.css";
 import "../styles/home.css";
@@ -14,10 +15,10 @@ export class Home extends PureComponent {
             className="sec-1"
           >
             <h2 className="barb-name">Barbara Photographie.</h2>
-            {/* <a href=".sec-2"><img className="arrow" src='/img/arrow-down.png' alt="arr"></img></a> */}
+            <HashLink smooth to="/#galeries"><img className="arrow" src='/img/arrow-down.png' alt="arr"></img></HashLink>
           </section>
 
-          <section className="sec-2">
+          <section id="galeries" className="sec-2">
             <h2>
               <Link to="/galeries" className="sec-2-title">
                 Galeries
