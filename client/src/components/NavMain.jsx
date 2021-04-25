@@ -9,7 +9,6 @@ function NavMain() {
     <div className="navbar">
       <div className="nav-all-links">
           <NavLink className="nav-each-link" to="/">Accueil</NavLink>
-          <NavLink className="nav-each-link" to="/galeries">Galeries</NavLink>
           <NavLink className="nav-each-link" to="/a-propos">À propos</NavLink>
           <NavLink className="nav-each-link" to="/contact">Contact</NavLink>
         </div>

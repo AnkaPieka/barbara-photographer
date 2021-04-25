@@ -18,7 +18,7 @@ a, p {
 /*details*/
 
 .navbar {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     top: 0;
     position: fixed;
     height: 3rem;
@@ -26,16 +26,21 @@ a, p {
     padding: 1rem;
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
+    /* justify-content: center; */
     box-shadow: black 1px 1px 1px;
 }
 
 .nav-all-links {
     margin: 0 1rem;
+    width: auto;
+    display: flex;
+    justify-self: center;
 }
 
 .nav-each-link {
     margin: 0 1rem;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .nav-each-link:hover {
     color: cornflowerblue;

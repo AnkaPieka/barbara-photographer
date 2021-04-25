@@ -6,6 +6,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
 import Footer from "./components/Footer";
+import Streetphoto from "./pages/Streetphoto";
+import Portraits from "./pages/Portraits";
 import './styles/global.css';
 
 
@@ -18,6 +20,8 @@ function App() {
         <Route exact path="/a-propos" component={About} />
         <Route exact path="/galeries" component={Gallery} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/photo-de-rue" component={Streetphoto} />
+        <Route exact path="/portraits" component={Portraits} />
       </Switch>
       {/* <Footer /> */}
     </div>
