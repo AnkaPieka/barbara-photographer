@@ -19,7 +19,7 @@ function App() {
         <Route exact path="/galeries" component={Gallery} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

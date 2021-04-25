@@ -1,3 +1,25 @@
-/* body {
-    margin-top: 3rem;
-} */
+img {
+    max-width: 100% ;
+}
+
+/*section 1*/
+
+.barb-name {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.sec-1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*section 2*/
+
+.sec-2 {
+    background-color: palegreen;
+    height: 25rem;
+}
