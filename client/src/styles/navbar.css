@@ -27,7 +27,7 @@ a, p {
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
-    border-bottom: crimson 1px solid;
+    box-shadow: black 1px 1px 1px;
 }
 
 .nav-all-links {

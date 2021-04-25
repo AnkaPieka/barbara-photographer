@@ -8,6 +8,7 @@ img {
     color: white;
     font-size: 5rem;
     text-align: center;
+    letter-spacing: 0.6rem;
 }
 
 .sec-1 {
@@ -15,11 +16,56 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
 }
 
 /*section 2*/
 
 .sec-2 {
-    background-color: palegreen;
-    height: 25rem;
+    padding: 2rem;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-2-title {
+    color: white;
+    letter-spacing: 0.8rem;
+}
+
+.imgs-container {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.img {
+    width: 50%;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+
+.img:hover {
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+
+.img-lgd {
+    color: white;
+    font-size: 2vh;
+    letter-spacing: 0.4rem;
+}
+.img-lgd:hover {
+    letter-spacing: 0.2rem;
+    transition: letter-spacing 1.2s;
 }
