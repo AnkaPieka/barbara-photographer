@@ -5,7 +5,9 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
-import './App.css';
+import Footer from "./components/Footer";
+import './styles/global.css';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route exact path="/galeries" component={Gallery} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
+      <Footer />
     </div>
   );
 }
