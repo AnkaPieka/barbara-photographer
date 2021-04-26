@@ -1,0 +1,43 @@
+.body-margin {
+  margin: 5rem;
+}
+
+.grid-container {
+  margin-bottom: 20rem;
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-rows: 0.5fr 1.5fr;
+  gap: 0 2rem;
+  grid-template-areas:
+    "title title"
+    "photo desc";
+}
+.title {
+  grid-area: title;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  grid-area: photo;
+  display: flex;
+  align-items: center;
+}
+.desc {
+  grid-area: desc;
+  text-align: justify;
+}
+
+.title > h2 {
+  font-size: 5rem;
+  letter-spacing: 0.8rem;
+  transition: letter-spacing 1s;
+}
+.title > h2:hover {
+  letter-spacing: 0.5rem;
+  transition: letter-spacing 1s;
+}
+
+.desc > p {
+    font-size: 1.2rem;
+}
