@@ -55,11 +55,11 @@ img.arrow {
     margin: 2rem;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     text-align: center;
     color: white;
     letter-spacing: 0.4rem;
+    transition: letter-spacing 1s;
 }
 
 .img:hover {
@@ -67,7 +67,6 @@ img.arrow {
     transition: letter-spacing 1.2s, filter 0.5s;
     cursor: pointer;
     filter: grayscale(100%);
-    /* transition: filter 0.5s; */
 }
 
 .img-lgd {
