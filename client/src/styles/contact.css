@@ -1,0 +1,91 @@
+.grid-container-contact {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "text info";
+}
+.text {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40% 60%;
+  gap: 4px 0px;
+  grid-template-areas:
+    "title"
+    "body";
+  grid-area: text;
+  background-color: black;
+  color: white;
+}
+.title {
+  grid-area: title;
+}
+.body {
+  grid-area: body;
+  display: flex;
+  align-items: center;
+}
+.info {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40% 60%;
+  gap: 4px 0px;
+  grid-template-areas:
+    "mail-tel"
+    "social-net";
+  grid-area: info;
+}
+.mail-tel {
+  grid-area: mail-tel;
+}
+.social-net {
+  grid-area: social-net;
+  display: flex;
+}
+
+/*détails*/
+
+h3 {
+  font-size: 4rem;
+}
+
+.body p {
+  font-size: 1rem;
+}
+
+.social-icons {
+  color: blue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-net > div > p {
+  width: auto;
+  margin: 1rem;
+}
+
+.mail-tel > p {
+  margin: 1rem;
+  text-align: left;
+}
+
+/*icon social*/
+
+.social-imgs {
+    /* width: 2rem; */
+    height: 4rem;
+}
+
+/*classes générales*/
+
+.padding-contact {
+  padding: 1.5rem;
+}
+
+.center-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
