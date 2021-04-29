@@ -21,28 +21,33 @@ a, p {
     background-color: rgb(255, 255, 255);
     top: 0;
     position: fixed;
-    height: 3rem;
-    width: 100%;
+    width: 15rem;
+    height: 100%;
     padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.507) 1px 1px 1px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    box-shadow: black 1px 1px 1px;
+    justify-content: center;
 }
 
 .nav-all-links {
-    margin: 0 1rem;
+    margin: 0 rem;
     width: auto;
     display: flex;
-    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-each-link {
-    margin: 0 1rem;
+    margin: 0 2rem;
     display: flex;
     flex-wrap: nowrap;
+    letter-spacing: 0.2rem;
+    transition: color 1s;
 }
 .nav-each-link:hover {
-    color: cornflowerblue;
+    color: rgba(0, 0, 0, 0.61);
     transition: color 0.8s;
 }
