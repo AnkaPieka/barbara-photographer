@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import useFirestore from "../hooks/useFirestore";
 
-const Modal = ({ selectedImg, setSelectedImg, imgDesc, setImgDesc }) => {
-  const { docs } = useFirestore("images");
-  console.log(docs);
+import "../styles/modal.css";
+
+const Modal = ({ selectedImg, setSelectedImg, imgDesc, setImgDesc, docs }) => {
+  // const { docs } = useFirestore();
+  // console.log("modal docs :", docs);
+  // console.log('sel img :', selectedImg)
 
   const handleClick = (e) => {
     if (e.target.classList.contains("backdrop")) {
@@ -11,7 +14,7 @@ const Modal = ({ selectedImg, setSelectedImg, imgDesc, setImgDesc }) => {
     }
   };
 
-  const prevButtonClick = (e) => {
+  const prevButtonClick = () => {
     docs.map((doc) => {
       for (let i = 0; i < docs.length; i++) {
         if (doc.url === selectedImg && docs.indexOf(doc) !== 0) {
@@ -23,8 +26,9 @@ const Modal = ({ selectedImg, setSelectedImg, imgDesc, setImgDesc }) => {
     });
   };
 
-  const nextButtonClick = (e) => {
+  const nextButtonClick = () => {
     docs.map((doc) => {
+      console.log('next')
       for (let i = 0; i < docs.length; i++) {
         if (doc.url === selectedImg && docs.indexOf(doc) !== docs.length - 1) {
           const nextIndex = docs.indexOf(doc) + 1;

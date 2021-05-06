@@ -1,13 +1,8 @@
 import React from "react";
-import useFirestore from "../hooks/useFirestore";
-import useStorage from "../hooks/useStorage";
 
-const PhotoGrid = ({ setSelectedImg, setImgDesc }) => {
+const PhotoGrid = ({ setSelectedImg, setImgDesc, docs }) => {
 
-  const { docs } = useFirestore("barbara");
-  // const { url } = useStorage(file);
-  console.log(docs);
-  console.log(('yo'))
+  console.log('photogrid docs :', docs);
 
   return (
     <div className="gallery-container">
@@ -17,6 +12,7 @@ const PhotoGrid = ({ setSelectedImg, setImgDesc }) => {
             className="img-wrap"
             key={doc.id}
             onClick={() => {
+              console.log('yo', doc)
               setSelectedImg(doc.url);
               setImgDesc(doc.desc);
             }}
