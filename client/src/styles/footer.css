@@ -1,10 +1,12 @@
 .footer {
-    height: 2rem;
+    position: absolute;
     min-width: 100vh;
-    background-color: rgba(128, 128, 128, 0.548);
-    left: 0;
-    bottom: 0px;
-    margin-bottom: 0px;
+    height: 2rem;
+    background-color: rgba(235, 14, 14, 0.89);
+    right: 0;
+    left:0;
+    bottom: 0;
+    margin-left: 15rem;
     display: flex;
     align-items: center;
     padding: 0 1rem;

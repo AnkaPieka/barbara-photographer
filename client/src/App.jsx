@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 import Footer from "./components/Footer";
 import Streetphoto from "./pages/Streetphoto";
 import Portraits from "./pages/Portraits";
-import './styles/global.css';
+// import './styles/global.css';
 
 
 function App() {

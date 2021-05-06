@@ -24,7 +24,7 @@ a, p {
     width: 15rem;
     height: 100%;
     padding: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.507) 1px 1px 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.507) 1px 1px 1px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -41,7 +41,7 @@ a, p {
 }
 
 .nav-each-link {
-    margin: 0 2rem;
+    margin: 1rem;
     display: flex;
     flex-wrap: nowrap;
     letter-spacing: 0.2rem;

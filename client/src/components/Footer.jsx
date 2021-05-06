@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+
 import "../styles/global.css";
 import "../styles/footer.css";
 

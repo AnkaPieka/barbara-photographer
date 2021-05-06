@@ -7,8 +7,8 @@ import "../styles/about.css"
 export class About extends PureComponent {
   render() {
     return (
-      <section className="body-page body-margin">
-        <div class="grid-container">
+      <section className="body-page">
+        <div class="grid-container body-margin">
           <div class="title">
             <h2>Barbara.</h2>
           </div>

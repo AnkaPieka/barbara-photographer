@@ -1,74 +1,74 @@
 img {
-    max-width: 100% ;
+  max-width: 100%;
 }
 
 /*section 1*/
 
 .barb-name {
-    color: white;
-    font-size: 5rem;
-    text-align: center;
-    letter-spacing: 0.6rem;
+  color: white;
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 0.6rem;
 }
 
 img.arrow {
-    width: 4rem;
-    height: 4rem;
+  width: 4rem;
+  height: 4rem;
 }
 
 .sec-1 {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
 }
 
 /*section 2*/
 
 .sec-2 {
-    padding: 2rem;
-    background-color: black;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  padding: 2rem;
+  background-color: black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .sec-2-title {
-    color: white;
-    letter-spacing: 0.8rem;
+  color: white;
+  letter-spacing: 0.8rem;
 }
 
 .imgs-container {
-    margin: 1rem;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+  margin: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 
 .img {
-    width: 50%;
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    color: white;
-    letter-spacing: 0.4rem;
-    transition: letter-spacing 1s;
+  width: 50%;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.4rem;
+  transition: letter-spacing 1s;
 }
 
 .img:hover {
-    letter-spacing: 0.2rem;
-    transition: letter-spacing 1.2s, filter 0.5s;
-    cursor: pointer;
-    filter: grayscale(100%);
+  letter-spacing: 0.2rem;
+  transition: letter-spacing 1.2s, filter 0.5s;
+  cursor: pointer;
+  filter: grayscale(100%);
 }
 
 .img-lgd {
-    font-size: 2vh;
+  font-size: 2vh;
 }
