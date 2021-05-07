@@ -22,3 +22,7 @@ body {
     height: 100vh;
     margin-left: 15rem;
 }
+
+.body-page-galleries {
+    margin: 0 4rem 0 15rem;
+}

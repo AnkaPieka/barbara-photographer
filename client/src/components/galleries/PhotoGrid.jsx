@@ -5,7 +5,7 @@ const PhotoGrid = ({ setSelectedImg, setImgDesc, docs }) => {
   console.log('photogrid docs :', docs);
 
   return (
-    <div className="gallery-container">
+    <div className="gallery-container img-grid">
       {docs &&
         docs.map((doc) => (
           <div

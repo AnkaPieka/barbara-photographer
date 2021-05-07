@@ -1,12 +1,8 @@
-import React, { useState } from "react";
-import useFirestore from "../hooks/useFirestore";
+import React from "react";
 
-import "../styles/modal.css";
+import "../../styles/modal.css";
 
 const Modal = ({ selectedImg, setSelectedImg, imgDesc, setImgDesc, docs }) => {
-  // const { docs } = useFirestore();
-  // console.log("modal docs :", docs);
-  // console.log('sel img :', selectedImg)
 
   const handleClick = (e) => {
     if (e.target.classList.contains("backdrop")) {

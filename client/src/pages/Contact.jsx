@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+
 import "../styles/global.css";
 import "../styles/contact.css";
 
@@ -34,10 +35,22 @@ export class Contact extends PureComponent {
               </div>
               <div className="social-net padding-contact center-info">
                 <div className="social-icons">
-                <i class="fab fa-instagram"></i>
-                <img className="social-imgs" src="https://i.pinimg.com/originals/d7/aa/38/d7aa387ceb1577d59a8d7dc6d64a0c82.png" alt="insta"/>
-                <img className="social-imgs" src="https://findicons.com/files/icons/2779/simple_icons/2048/facebook_2048_black.png" alt="insta"/>
-                <img className="social-imgs" src="https://image.flaticon.com/icons/png/512/60/60580.png" alt="insta"/>
+                  <i class="fab fa-instagram"></i>
+                  <img
+                    className="social-imgs"
+                    src="https://i.pinimg.com/originals/d7/aa/38/d7aa387ceb1577d59a8d7dc6d64a0c82.png"
+                    alt="insta"
+                  />
+                  <img
+                    className="social-imgs"
+                    src="https://findicons.com/files/icons/2779/simple_icons/2048/facebook_2048_black.png"
+                    alt="insta"
+                  />
+                  <img
+                    className="social-imgs"
+                    src="https://image.flaticon.com/icons/png/512/60/60580.png"
+                    alt="insta"
+                  />
                 </div>
               </div>
             </div>
