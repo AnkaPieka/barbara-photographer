@@ -23,6 +23,8 @@ img.arrow {
   align-items: center;
   justify-content: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*section 2*/
@@ -59,7 +61,8 @@ img.arrow {
   text-align: center;
   color: white;
   letter-spacing: 0.4rem;
-  transition: letter-spacing 1s;
+  transition: letter-spacing 1s, filter 0.3s;
+  filter: grayscale(0%);
 }
 
 .img:hover {

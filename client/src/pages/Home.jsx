@@ -8,10 +8,9 @@ import "../styles/home.css";
 export class Home extends PureComponent {
   render() {
     return (
-      <div>
         <div className="body-page">
           <section
-            style={{ backgroundImage: "url('/img/sample.jpg')" }}
+            style={{ backgroundImage: "url('/img/sample6.jpg')" }}
             className="sec-1"
           >
             <h2 className="barb-name">Barbara Photographie.</h2>
@@ -40,7 +39,6 @@ export class Home extends PureComponent {
             </div>
           </section>
         </div>
-      </div>
     );
   }
 }

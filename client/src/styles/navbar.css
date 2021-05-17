@@ -51,3 +51,16 @@ a, p {
     color: rgba(0, 0, 0, 0.61);
     transition: color 0.8s;
 }
+
+/*subnav*/
+.subnav {
+    background-color: chartreuse;
+  }
+
+.subnav-content {
+    display: none;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}

@@ -1,5 +1,7 @@
 import React from "react";
 
+import "../../styles/gallery.css";
+
 const PhotoGrid = ({ setSelectedImg, setImgDesc, docs }) => {
 
   console.log('photogrid docs :', docs);
