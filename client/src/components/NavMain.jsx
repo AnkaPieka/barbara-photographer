@@ -12,10 +12,11 @@ function NavMain() {
           Accueil
         </NavLink>
         <div className="subnav">
-          <div className="nav-each-link">Galeries</div>
+          <div className="nav-gallery-category">Galeries</div>
           <div className="subnav-content">
-            <NavLink  to="/portraits">Portraits</NavLink>
-            <NavLink  to="/photo-de-rue">Photo de rue</NavLink>
+            <NavLink className="navlinks" to="/portraits">Portraits</NavLink>
+            <NavLink className="navlinks" to="/photo-de-rue">Photo de rue</NavLink>
+            <NavLink className="navlinks" to="/photo-de-rue">Marques</NavLink>
           </div>
         </div>
         <NavLink className="nav-each-link" to="/a-propos">
