@@ -13,7 +13,7 @@ function NavMain() {
         </NavLink>
         <div className="subnav">
           <div className="nav-gallery-category">Galeries</div>
-          <div className="subnav-content">
+          <div className="subnav-content fade-in">
             <NavLink className="navlinks" to="/portraits">Portraits</NavLink>
             <NavLink className="navlinks" to="/photo-de-rue">Photo de rue</NavLink>
             <NavLink className="navlinks" to="/photo-de-rue">Marques</NavLink>
