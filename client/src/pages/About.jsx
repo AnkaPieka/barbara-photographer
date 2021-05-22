@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react";
-import Image from "../components/Image";
 
 import "../styles/global.css";
 import "../styles/about.css"
@@ -8,14 +7,14 @@ export class About extends PureComponent {
   render() {
     return (
       <section className="body-page">
-        <div class="grid-container body-margin">
-          <div class="title">
+        <div className="grid-container body-margin">
+          <div className="title">
             <h2>Barbara.</h2>
           </div>
-          <div class="photo">
-            <Image source="/img/sample4.jpg" />
+          <div className="photo">
+            <img src="/img/sample4.jpg" alt="barbara portrait" />
           </div>
-          <div class="desc">
+          <div className="desc">
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text

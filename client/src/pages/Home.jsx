@@ -1,23 +1,32 @@
 import React, { PureComponent } from "react";
 import { Link } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
+// import { HashLink } from 'react-router-hash-link';
 import Image from "../components/Image";
+import Footer from "../components/Footer"
+
 import "../styles/global.css";
 import "../styles/home.css";
 
 export class Home extends PureComponent {
   render() {
     return (
-        <div className="body-page">
-          <section
-            style={{ backgroundImage: "url('/img/sample6.jpg')" }}
-            className="sec-1"
-          >
-            <h2 className="barb-name">Barbara Photographie.</h2>
-            <HashLink smooth to="/#galeries"><img className="arrow" src='/img/arrow-down.png' alt="arr"></img></HashLink>
-          </section>
+      <div className="body-page">
+        <section className="sections">
+          <h2 className="barb-name">Barbara Photographie.</h2>
+          <Image source="/img/sample3.jpg" imgText="Portraits." />
+        </section>
 
-          <section id="galeries" className="sec-2">
+        <section className="sections">
+          <Image source="/img/sample4.jpg" imgText="Photo de rue." />
+        </section>
+
+        <section className="sections">
+          <Image source="/img/sample5.jpg" imgText="Marques."/>
+        </section>
+
+        <Footer />
+
+        {/* <section id="galeries" className="sec-2">
             <h2>
               <Link to="/galeries" className="sec-2-title">
                 Galeries
@@ -37,8 +46,8 @@ export class Home extends PureComponent {
                 <p className="img-lgd">Photographie de rue</p>
               </div>
             </div>
-          </section>
-        </div>
+          </section> */}
+      </div>
     );
   }
 }

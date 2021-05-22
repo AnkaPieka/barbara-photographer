@@ -7,13 +7,14 @@ import "../styles/global.css";
 function NavMain() {
   return (
     <div className="navbar">
+      <div className="absolute-positioning">
       <div className="nav-all-links">
         <NavLink className="nav-each-link" to="/">
           Accueil
         </NavLink>
         <div className="subnav">
           <div className="nav-gallery-category">Galeries</div>
-          <div className="subnav-content fade-in">
+          <div className="subnav-content fade-in fade-out">
             <NavLink className="navlinks" to="/portraits">Portraits</NavLink>
             <NavLink className="navlinks" to="/photo-de-rue">Photo de rue</NavLink>
             <NavLink className="navlinks" to="/photo-de-rue">Marques</NavLink>
@@ -25,6 +26,7 @@ function NavMain() {
         <NavLink className="nav-each-link" to="/contact">
           Contact
         </NavLink>
+      </div>
       </div>
     </div>
   );
