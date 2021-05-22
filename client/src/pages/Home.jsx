@@ -12,16 +12,16 @@ export class Home extends PureComponent {
     return (
       <div className="body-page">
         <section className="sections">
-          <h2 className="barb-name">Barbara Photographie.</h2>
-          <Image source="/img/sample3.jpg" imgText="Portraits." />
+          {/* <h2 className="barb-name">Barbara Photographie.</h2> */}
+          <Link to="/portraits"><Image source="/img/sample3.jpg" imgText="Portraits." /></Link>
         </section>
 
         <section className="sections">
-          <Image source="/img/sample4.jpg" imgText="Photo de rue." />
+          <Link to="/photo-de-rue"><Image source="/img/sample6.jpg" imgText="Photo de rue." /></Link>
         </section>
 
         <section className="sections">
-          <Image source="/img/sample5.jpg" imgText="Marques."/>
+          <Link to=""><Image source="/img/sample5.jpg" imgText="Marques."/></Link>
         </section>
 
         <Footer />
