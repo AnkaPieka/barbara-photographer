@@ -30,27 +30,25 @@ p {
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   top: 0;
-  /* justify-content: center; */
 }
 
 .navbar > .absolute-positioning {
   position: absolute;
-  top: 15rem;
+  top: 10rem;
 }
 
 .nav-all-links {
   width: auto;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
 }
 
 .nav-each-link {
   font-size: 1.2rem;
-  margin: 1rem 0.6rem;
+  margin: 1rem 0.9rem;
   display: flex;
   flex-wrap: nowrap;
   letter-spacing: 0.2rem;
@@ -63,12 +61,27 @@ p {
 
 .nav-gallery-category {
   font-size: 1.2rem;
-  margin: 1rem 0.6rem;
+  margin: 1rem 0.9rem;
   display: flex;
   flex-wrap: nowrap;
   letter-spacing: 0.2rem;
   transition: color 1s;
   color: white;
+}
+
+.barb-name {
+  color: rgb(221, 221, 221);
+  text-shadow: rgba(70, 65, 65, 0.836) -1px 2px 5px;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 0;
+  margin: 2rem 0.9rem;
+  letter-spacing: 0.2rem;
+  transition: color 0.6s;
+}
+.barb-name:hover {
+  color: rgb(255, 255, 255);
+  transition: color 0.6s;
 }
 
 /*subnav*/
@@ -91,7 +104,7 @@ p {
   font-size: 1rem;
   color: white;
   transition: color 1s;
-  margin: 0.2rem;
+  margin: 0.2rem 2rem;
 }
 
 .subnav-content .navlinks:hover {
