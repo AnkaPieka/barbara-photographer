@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import useFirestore from "../hooks/useFirestore";
 import PhotoGrid from "../components/galleries/PhotoGrid";
 import Modal from "../components/galleries/Modal";
-import Highlight from "../components/galleries/Highlight";
+import Section1 from "../components/galleries/Section1";
 
 import "../styles/global.css";
 import "../styles/gallery.css";
@@ -14,7 +14,7 @@ const Portraits = () => {
 
   return (
     <div className="body-page-galleries">
-      <Highlight />
+      <Section1 galerieTitle="Portraits" />
       <PhotoGrid
         setSelectedImg={setSelectedImg}
         setImgDesc={setImgDesc}

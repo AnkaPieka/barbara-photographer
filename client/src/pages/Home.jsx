@@ -24,8 +24,6 @@ export class Home extends PureComponent {
           <Link to=""><Image source="/img/sample5.jpg" imgText="Marques."/></Link>
         </section>
 
-        <Footer />
-
         {/* <section id="galeries" className="sec-2">
             <h2>
               <Link to="/galeries" className="sec-2-title">
