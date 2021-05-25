@@ -12,7 +12,7 @@ export class About extends PureComponent {
             <h2>Barbara.</h2>
           </div>
           <div className="photo">
-            <img src="/img/sample4.jpg" alt="barbara portrait" />
+            <img className="barbara" src="/img/sample4.jpg" alt="barbara portrait" />
           </div>
           <div className="desc">
             <p>
